@@ -1,1 +1,1 @@
-lexicoderDict<-content_transformer(function(x) stri_replace_all_regex(x, dict$replace, dict$with, vectorize_all=FALSE))
+lexicoderDict<-tm::content_transformer(function(x) stri_replace_all_regex(x, dict$replace, dict$with, vectorize_all=FALSE))

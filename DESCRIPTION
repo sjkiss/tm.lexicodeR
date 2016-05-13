@@ -7,3 +7,4 @@ Author: Simon J. Kiss
 Maintainer: Simon Kiss <skiss@wlu.ca>
 Description: Lexicoder is a useful text analysis software (Daku, M., Soroka, S. and Young, L. ,2015) that combines basic text pre-processing with its own dictionaries for sentiment analysis.  However, this is designed to work outside the R environment, and is programmed in Java.  This package integrates some of the unique functionalities and dictionaries that Lexicoder provides to work strictly within the R environment.  
 License: What license is it under?
+Imports: tm
